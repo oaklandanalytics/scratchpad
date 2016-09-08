@@ -9,7 +9,7 @@ all_ids = pd.Series([
     for feature in json.load(open(geo))["features"]
 ])
 
-df = pd.read_csv("max_density_per_pda_5080.csv")
+df = pd.read_csv("max_density_per_pda_5080_subbaseline.csv")
 df["pda"] = df.pda.str.upper()
 df = df.set_index("pda")
 
@@ -25,4 +25,4 @@ map.choropleth(geo_path=geo, data=df,
              key_on='feature.properties.joinkey',
              fill_color='YlGn', fill_opacity=0.7, line_opacity=0.2,
              legend_name='Max Dua by Policy Zone')
-map.save('max_dua_pda_5080.html')
+map.save('max_dua_pda_5080_subbaseline.html')

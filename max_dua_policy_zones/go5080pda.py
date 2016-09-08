@@ -9,7 +9,9 @@ all_ids = pd.Series([
     for feature in json.load(open(geo))["features"]
 ])
 
-df = pd.read_csv("max_density_per_pda_5080.csv").set_index("pda")
+df = pd.read_csv("max_density_per_pda_5080.csv")
+df["pda"] = df.pda.str.upper()
+df = df.set_index("pda")
 
 # folium doesn't like missing ids
 df = df.reindex(all_ids).reset_index()

@@ -1,0 +1,298 @@
+county,juris,joinkey
+Alameda,Alameda,ALA1
+Alameda,Alameda,ALA2
+Alameda,Alameda,Non-PDA
+Alameda,Albany,ALB1
+Alameda,Albany,Non-PDA
+Alameda,Berkeley,BER1
+Alameda,Berkeley,BER2
+Alameda,Berkeley,BER3
+Alameda,Berkeley,BER4
+Alameda,Berkeley,BER5
+Alameda,Berkeley,BER6
+Alameda,Berkeley,Non-PDA
+Alameda,Dublin,DUB1
+Alameda,Dublin,DUB2
+Alameda,Dublin,DUB3
+Alameda,Dublin,Non-PDA
+Alameda,Emeryville,EME1
+Alameda,Emeryville,Non-PDA
+Alameda,Fremont,FRE1
+Alameda,Fremont,FRE2
+Alameda,Fremont,FRE3
+Alameda,Fremont,FRE4
+Alameda,Fremont,Non-PDA
+Alameda,Hayward,HAY1
+Alameda,Hayward,HAY2
+Alameda,Hayward,HAY3_a
+Alameda,Hayward,HAY3_b
+Alameda,Hayward,HAY4
+Alameda,Hayward,Non-PDA
+Alameda,Livermore,LIV1
+Alameda,Livermore,LIV2
+Alameda,Livermore,LIV3
+Alameda,Livermore,Non-PDA
+Alameda,Newark,NEW1
+Alameda,Newark,NEW2
+Alameda,Newark,Non-PDA
+Alameda,Oakland,OKD1
+Alameda,Oakland,OKD1_a
+Alameda,Oakland,OKD1_b
+Alameda,Oakland,OKD2
+Alameda,Oakland,OKD3
+Alameda,Oakland,OKD4
+Alameda,Oakland,OKD5
+Alameda,Oakland,OKD6
+Alameda,Oakland,OKD7
+Alameda,Oakland,OKD8
+Alameda,Oakland,Non-PDA
+Alameda,Piedmont,Total
+Alameda,Pleasanton,PLE1
+Alameda,Pleasanton,Non-PDA
+Alameda,San Leandro,SLE1
+Alameda,San Leandro,SLE2
+Alameda,San Leandro,SLE3
+Alameda,San Leandro,Non-PDA
+Alameda,Union City,UNI1
+Alameda,Union City,Non-PDA
+Alameda,Alameda County,ALC1
+Alameda,Alameda County,ALC2
+Alameda,Alameda County,ALC3
+Alameda,Alameda County,ALC4
+Alameda,Alameda County,Non-PDA
+Contra Costa,Antioch,ANT1
+Contra Costa,Antioch,ANT2
+Contra Costa,Antioch,Non-PDA
+Contra Costa,Brentwood,Total
+Contra Costa,Clayton,Total
+Contra Costa,Concord,CON1_a
+Contra Costa,Concord,CON1_b
+Contra Costa,Concord,CON2
+Contra Costa,Concord,Non-PDA
+Contra Costa,Danville,DAN1
+Contra Costa,Danville,Non-PDA
+Contra Costa,El Cerrito,ELC1_a
+Contra Costa,El Cerrito,ELC1_b
+Contra Costa,El Cerrito,Non-PDA
+Contra Costa,Hercules,HER1
+Contra Costa,Hercules,HER2
+Contra Costa,Hercules,WCC1_g
+Contra Costa,Hercules,Non-PDA
+Contra Costa,Lafayette,LAF1
+Contra Costa,Lafayette,Non-PDA
+Contra Costa,Martinez,MAR1
+Contra Costa,Martinez,Non-PDA
+Contra Costa,Moraga,MOR1
+Contra Costa,Moraga,Non-PDA
+Contra Costa,Oakley,OAK1
+Contra Costa,Oakley,OAK2
+Contra Costa,Oakley,OAK3
+Contra Costa,Oakley,Non-PDA
+Contra Costa,Orinda,ORI1
+Contra Costa,Orinda,Non-PDA
+Contra Costa,Pinole,PIN1
+Contra Costa,Pinole,PIN2
+Contra Costa,Pinole,Non-PDA
+Contra Costa,Pittsburg,PIT1
+Contra Costa,Pittsburg,PIT2
+Contra Costa,Pittsburg,CCC3_b
+Contra Costa,Pittsburg,Non-PDA
+Contra Costa,Pleasant Hill,PLH1
+Contra Costa,Pleasant Hill,PLH2
+Contra Costa,Pleasant Hill,Non-PDA
+Contra Costa,Richmond,RIC1_a
+Contra Costa,Richmond,RIC1_b
+Contra Costa,Richmond,RIC2
+Contra Costa,Richmond,WCC1_c
+Contra Costa,Richmond,Non-PDA
+Contra Costa,San Pablo,SPA2
+Contra Costa,San Pablo,SPA1
+Contra Costa,San Pablo,Non-PDA
+Contra Costa,San Ramon,SAR1
+Contra Costa,San Ramon,SAR2
+Contra Costa,San Ramon,Non-PDA
+Contra Costa,Walnut Creek,WAL1
+Contra Costa,Walnut Creek,Non-PDA
+Contra Costa,Contra Costa County,CCC1
+Contra Costa,Contra Costa County,CCC2
+Contra Costa,Contra Costa County,CCC3_a
+Contra Costa,Contra Costa County,CCC4
+Contra Costa,Contra Costa County,WCC1_a
+Contra Costa,Contra Costa County,Non-PDA
+Marin,Belvedere,Total
+Marin,Corte Madera,Total
+Marin,Fairfax,Total
+Marin,Larkspur,Total
+Marin,Mill Valley,Total
+Marin,Novato,Total
+Marin,Ross,Total
+Marin,San Anselmo,Total
+Marin,San Rafael,SRA1
+Marin,San Rafael,Non-PDA
+Marin,Sausalito,Total
+Marin,Tiburon,Total
+Marin,Marin County,MCO1
+Marin,Marin County,Non-PDA
+Napa,American Canyon,ACA1
+Napa,American Canyon,Non-PDA
+Napa,Calistoga,Total
+Napa,Napa,NAP1
+Napa,Napa,Non-PDA
+Napa,St. Helena,Total
+Napa,Yountville,Total
+Napa,Napa County,Total
+San Francisco,San Francisco,SFO1
+San Francisco,San Francisco,SFO10
+San Francisco,San Francisco,SFO11
+San Francisco,San Francisco,SFO12
+San Francisco,San Francisco,SFO2
+San Francisco,San Francisco,SFO3
+San Francisco,San Francisco,SFO4
+San Francisco,San Francisco,SFO5
+San Francisco,San Francisco,SFO6
+San Francisco,San Francisco,SFO7
+San Francisco,San Francisco,SFO8
+San Francisco,San Francisco,SFO9_b
+San Francisco,San Francisco,Non-PDA
+San Mateo,Atherton,Total
+San Mateo,Belmont,BEL1
+San Mateo,Belmont,Non-PDA
+San Mateo,Brisbane,SFO9_a
+San Mateo,Brisbane,Non-PDA
+San Mateo,Burlingame,BUR1
+San Mateo,Burlingame,Non-PDA
+San Mateo,Colma,CCG1_b
+San Mateo,Colma,Non-PDA
+San Mateo,Daly City,DAL1
+San Mateo,Daly City,DAL2
+San Mateo,Daly City,Non-PDA
+San Mateo,East Palo Alto,EPA1
+San Mateo,East Palo Alto,Non-PDA
+San Mateo,Foster City,Total
+San Mateo,Half Moon Bay,Total
+San Mateo,Hillsborough,Total
+San Mateo,Menlo Park,MEN1
+San Mateo,Menlo Park,Non-PDA
+San Mateo,Millbrae,MIL1
+San Mateo,Millbrae,Non-PDA
+San Mateo,Pacifica,Total
+San Mateo,Portola Valley,Total
+San Mateo,Redwood City,RWC1
+San Mateo,Redwood City,RWC2
+San Mateo,Redwood City,RWC3
+San Mateo,Redwood City,Non-PDA
+San Mateo,San Bruno,SBR1
+San Mateo,San Bruno,Non-PDA
+San Mateo,San Carlos,SCA1
+San Mateo,San Carlos,Non-PDA
+San Mateo,San Mateo,SMA1
+San Mateo,San Mateo,SMA2
+San Mateo,San Mateo,SMA3
+San Mateo,San Mateo,SMA4
+San Mateo,San Mateo,Non-PDA
+San Mateo,South San Francisco,CCG1_c
+San Mateo,South San Francisco,SSF1
+San Mateo,South San Francisco,Non-PDA
+San Mateo,Woodside,Total
+San Mateo,San Mateo County,CCG1_k
+San Mateo,San Mateo County,CCG1_l
+San Mateo,San Mateo County,Non-PDA
+Santa Clara,Campbell,CAM1
+Santa Clara,Campbell,Non-PDA
+Santa Clara,Cupertino,VTA1_b
+Santa Clara,Cupertino,Non-PDA
+Santa Clara,Gilroy,GIL1
+Santa Clara,Gilroy,VTA1_c
+Santa Clara,Gilroy,Non-PDA
+Santa Clara,Los Altos,VTA1_d
+Santa Clara,Los Altos,Non-PDA
+Santa Clara,Los Altos Hills,Total
+Santa Clara,Los Gatos,Total
+Santa Clara,Milpitas,MPT1
+Santa Clara,Milpitas,VTA1_f
+Santa Clara,Milpitas,Non-PDA
+Santa Clara,Monte Sereno,Total
+Santa Clara,Morgan Hill,MOH1
+Santa Clara,Morgan Hill,Non-PDA
+Santa Clara,Mountain View,MVW1
+Santa Clara,Mountain View,MVW2
+Santa Clara,Mountain View,MVW3
+Santa Clara,Mountain View,MVW4
+Santa Clara,Mountain View,MVW6
+Santa Clara,Mountain View,Non-PDA
+Santa Clara,Palo Alto,PAL1
+Santa Clara,Palo Alto,Non-PDA
+Santa Clara,San Jose,SJO1
+Santa Clara,San Jose,SJO10
+Santa Clara,San Jose,SJO11
+Santa Clara,San Jose,SJO12
+Santa Clara,San Jose,SJO13
+Santa Clara,San Jose,SJO14
+Santa Clara,San Jose,SJO15
+Santa Clara,San Jose,SJO16
+Santa Clara,San Jose,SJO17
+Santa Clara,San Jose,SJO18
+Santa Clara,San Jose,SJO19
+Santa Clara,San Jose,SJO2
+Santa Clara,San Jose,SJO3
+Santa Clara,San Jose,SJO4
+Santa Clara,San Jose,SJO5
+Santa Clara,San Jose,SJO6
+Santa Clara,San Jose,SJO7
+Santa Clara,San Jose,SJO8
+Santa Clara,San Jose,SJO9
+Santa Clara,San Jose,VTA1_i
+Santa Clara,San Jose,Non-PDA
+Santa Clara,Santa Clara,SCL1
+Santa Clara,Santa Clara,SCL2
+Santa Clara,Santa Clara,Non-PDA
+Santa Clara,Saratoga,Total
+Santa Clara,Sunnyvale,SUN1
+Santa Clara,Sunnyvale,SUN2
+Santa Clara,Sunnyvale,SUN3
+Santa Clara,Sunnyvale,SUN6
+Santa Clara,Sunnyvale,SUN8
+Santa Clara,Sunnyvale,Non-PDA
+Santa Clara,Santa Clara County,Total
+Solano,Benicia,BEN1
+Solano,Benicia,BEN2
+Solano,Benicia,Non-PDA
+Solano,Dixon,DIX1
+Solano,Dixon,Non-PDA
+Solano,Fairfield,FAI1
+Solano,Fairfield,FAI2
+Solano,Fairfield,FAI3
+Solano,Fairfield,FAI4
+Solano,Fairfield,Non-PDA
+Solano,Rio Vista,Total
+Solano,Suisun City,SUI1
+Solano,Suisun City,Non-PDA
+Solano,Vacaville,VAC1
+Solano,Vacaville,VAC2
+Solano,Vacaville,Non-PDA
+Solano,Vallejo,VAL1
+Solano,Vallejo,VAL2
+Solano,Vallejo,Non-PDA
+Solano,Solano County,Total
+Sonoma,Cloverdale,CLO1
+Sonoma,Cloverdale,Non-PDA
+Sonoma,Cotati,COT1
+Sonoma,Cotati,Non-PDA
+Sonoma,Healdsburg,Total
+Sonoma,Petaluma,PET1
+Sonoma,Petaluma,Non-PDA
+Sonoma,Rohnert Park,ROH1
+Sonoma,Rohnert Park,ROH2
+Sonoma,Rohnert Park,Non-PDA
+Sonoma,Santa Rosa,SRO1
+Sonoma,Santa Rosa,SRO2
+Sonoma,Santa Rosa,SRO3
+Sonoma,Santa Rosa,SRO4
+Sonoma,Santa Rosa,SRO5
+Sonoma,Santa Rosa,Non-PDA
+Sonoma,Sebastopol,SEB1
+Sonoma,Sebastopol,Non-PDA
+Sonoma,Sonoma,Total
+Sonoma,Windsor,WIN1
+Sonoma,Windsor,Non-PDA
+Sonoma,Sonoma County,Total

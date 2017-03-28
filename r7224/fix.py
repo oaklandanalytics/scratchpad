@@ -1,4 +1,9 @@
-parcel_log = pd.read_csv("run7224_parcel_output.csv")
+args = sys.argv[1:]
+
+RUNNUM = 7224
+if len(args) == 1: RUNNUM = int(args[0])
+
+parcel_log = pd.read_csv("run%d_parcel_output.csv" % RUNNUM)
 
 # ironically we know that the households are all correct, so we can trust zonal variables for
 # everything but jobs.  we also want to recreate parcel level household variables
@@ -6,10 +11,10 @@ parcel_log = pd.read_csv("run7224_parcel_output.csv")
 employment_controls = pd.read_csv("/Users/fsfoti/src/bayarea_urbansim/data/employment_controls.csv",
                                   index_col="year")
 
-base_parcels = pd.read_csv("run7224_parcel_data_2010.csv",
+base_parcels = pd.read_csv("run%d_parcel_data_2010.csv" % RUNNUM,
                            index_col="parcel_id")
 
-forecast_parcels = pd.read_csv("run7224_parcel_data_2040.csv",
+forecast_parcels = pd.read_csv("run%d_parcel_data_2040.csv" % RUNNUM,
                                index_col="parcel_id")
 
 forecast_parcels["zone_id"] = orca.get_table("parcels").zone_id
@@ -29,9 +34,9 @@ def target_for_year_by_zone(colname, year):
 
     year = float(year) # to allow floats
 
-    base = pd.read_csv("run7224_taz_summaries_2010.csv", index_col="zone_id")[colname]
+    base = pd.read_csv("run%d_taz_summaries_2010.csv" % RUNNUM, index_col="zone_id")[colname]
 
-    forecast = pd.read_csv("run7224_taz_summaries_2040.csv", index_col="zone_id")[colname]
+    forecast = pd.read_csv("run%d_taz_summaries_2040.csv" % RUNNUM, index_col="zone_id")[colname]
     
     # linear interpolation from base to forecast
     return (forecast - base) * ((year - 2010) / 30) + base
@@ -151,7 +156,7 @@ def match_controls(parcels, year):
         capacity = capacity_func(parcels)
 
         # for households we have to match zonal totals, not regional totals
-        for zone_id, row in pd.read_csv("run7224_taz_summaries_%d.csv" % year,
+        for zone_id, row in pd.read_csv("run%d_taz_summaries_%d.csv" % (RUNNUM, year),
                                         index_col="zone_id").iterrows():
 
             # first we remove then we add - we remove first in order
@@ -192,7 +197,7 @@ def match_controls(parcels, year):
 
 def modify_zone_summary(parcels, year):
 
-    df = pd.read_csv("run7224_taz_summaries_%d.csv" % year, index_col="zone_id")
+    df = pd.read_csv("run%d_taz_summaries_%d.csv" % (RUNNUM, year), index_col="zone_id")
 
     jobs_df = pd.DataFrame()
 
@@ -230,7 +235,7 @@ for year in range(2015, 2040, 5):
 
     base_parcels = match_controls(base_parcels, year)
 
-    base_parcels.to_csv("run7224_parcel_data_imputed_%d.csv" % year)
+    base_parcels.to_csv("run%d_parcel_data_imputed_%d.csv" % (RUNNUM, year))
 
-    modify_zone_summary(base_parcels, year).to_csv("run7224_taz_summaries_imputed_%d.csv" % year)
+    modify_zone_summary(base_parcels, year).to_csv("run%d_taz_summaries_imputed_%d.csv" % (RUNNUM, year))
 

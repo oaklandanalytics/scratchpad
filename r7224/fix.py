@@ -1,3 +1,5 @@
+import sys
+
 args = sys.argv[1:]
 
 RUNNUM = 7224
@@ -8,7 +10,7 @@ parcel_log = pd.read_csv("run%d_parcel_output.csv" % RUNNUM)
 # ironically we know that the households are all correct, so we can trust zonal variables for
 # everything but jobs.  we also want to recreate parcel level household variables
 
-employment_controls = pd.read_csv("/Users/fsfoti/src/bayarea_urbansim/data/employment_controls.csv",
+employment_controls = pd.read_csv("~/bayarea_urbansim/data/employment_controls.csv",
                                   index_col="year")
 
 base_parcels = pd.read_csv("run%d_parcel_data_2010.csv" % RUNNUM,

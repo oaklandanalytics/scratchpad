@@ -1,6 +1,12 @@
 import pandas as pd
 import orca
 from baus import models
+import sys
+
+args = sys.argv[1:]
+
+RUNNUM = 7224
+if len(args) == 1: RUNNUM = int(args[0])
 
 p = orca.get_table("parcels")
 superdistricts = orca.get_table("superdistricts")
@@ -26,9 +32,9 @@ building_sqft_per_job = {
 outdf = pd.DataFrame()
 
 for year, df in [
-	(2015, pd.read_csv("run7224_parcel_data_smoothjobs_2015.csv",
+	(2015, pd.read_csv("run%d_parcel_data_imputed_2015.csv" % RUNNUM,
 	    index_col="parcel_id")),
-	(2040, pd.read_csv("run7224_parcel_data_2040.csv",
+	(2040, pd.read_csv("run%d_parcel_data_2040.csv" % RUNNUM,
 		index_col="parcel_id"))
 ]:
 	df["county"] = p.county
@@ -76,4 +82,4 @@ for year, df in [
 		df[df.first_building_type_id.isin([7, 8, 9])].\
 			groupby("county").total_non_residential_sqft.sum()
 print outdf.sum()
-outdf.to_csv("run7224_crosstabs.csv")
+outdf.to_csv("run%s_crosstabs.csv" % RUNNUM)

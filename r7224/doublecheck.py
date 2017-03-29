@@ -1,3 +1,9 @@
+import sys
+
+args = sys.argv[1:]
+
+RUNNUM = 7224
+if len(args) == 1: RUNNUM = int(args[0])
 
 colmap = {
     "hhq1": "HHINCQ1",
@@ -10,9 +16,9 @@ for year in range(2015, 2040, 5):
 
 	print year
 
-	df = pd.read_csv("run7224_taz_summaries_imputed_%d.csv" % year, index_col="zone_id")
+	df = pd.read_csv("run%d_taz_summaries_imputed_%d.csv" % (RUNNUM, year), index_col="zone_id")
 
-	df2 = pd.read_csv("run7224_parcel_data_imputed_%d.csv" % year)
+	df2 = pd.read_csv("run%d_parcel_data_imputed_%d.csv" % (RUNNUM, year))
 
 	for col in "AGREMPN,MWTEMPN,RETEMPN,FPSEMPN,HEREMPN,OTHEMPN".split(","):
 		print col
